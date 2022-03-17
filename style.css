@@ -87,7 +87,14 @@ button:hover{
   align-items: center;
   justify-content: space-between;
   background-color: #EA8282;
-  border-radius: 12px;;
+  border-radius: 12px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #60BF88;
+  border-radius: 12px;
 }
 /* laptop design */
 

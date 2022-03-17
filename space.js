@@ -10,6 +10,7 @@ function buttonOne() {
     vectorRight.src = "icons8-done-30.png";
 
     btn2.appendChild(vectorRight);
+    btn2.setAttribute("class", "right")
 
     const wrong = document.createElement("img");
     wrong.src = "icons8-multiply-30.png";
@@ -26,6 +27,7 @@ function buttonTwo() {
     vectorRight.src = "icons8-done-30.png";
 
     btn2.appendChild(vectorRight);
+    btn2.setAttribute("class", "right")
 }
 
 function buttonThree() {
@@ -35,6 +37,7 @@ function buttonThree() {
     vectorRight.src = "icons8-done-30.png";
 
     btn2.appendChild(vectorRight);
+    btn2.setAttribute("class", "right")
 
     
     const wrong = document.createElement("img");
@@ -51,6 +54,7 @@ function buttonFour() {
     vectorRight.src = "icons8-done-30.png";
 
     btn2.appendChild(vectorRight);
+    btn2.setAttribute("class", "right")
 
     
     const wrong = document.createElement("img");
