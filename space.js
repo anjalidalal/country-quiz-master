@@ -26,12 +26,18 @@ function buttonOne() {
 
     btn2.appendChild(vectorRight);
     btn2.style.backgroundColor = "#60BF88";
+    btn2.style.color = "#f2f2f2";
+    btn2.style.border = "none";
+    btn2.style.position = "relative";
 
  
     wrong.src = "icons8-multiply-30.png";
 
     btn1.appendChild(wrong);
     btn1.style.backgroundColor = "#EA8282";
+    btn1.style.color = "#f2f2f2";
+    btn1.style.border = "none";
+    btn1.style.position = "relative"
 
     next.style.display = "unset";
 }
@@ -46,6 +52,9 @@ function buttonTwo() {
 
     btn2.appendChild(vectorRight);
     btn2.style.backgroundColor = "#60BF88";
+    btn2.style.color = "#f2f2f2";
+    btn2.style.border = "none";
+    btn2.style.position = "relative"
     
 
     next.style.display = "unset";
@@ -61,11 +70,18 @@ function buttonThree() {
 
     btn2.appendChild(vectorRight);
     btn2.style.backgroundColor = "#60BF88";
-
+    btn2.style.color = "#f2f2f2";
+    btn2.style.border = "none";
+    btn2.style.position = "relative"
+    
     wrong.src = "icons8-multiply-30.png";
 
     btn3.appendChild(wrong);
     btn3.style.backgroundColor = "#EA8282";
+    btn3.style.color = "#f2f2f2";
+    btn3.style.border = "none";
+    btn3.style.position = "relative";
+    
 
     next.style.display = "unset";
 }
@@ -80,11 +96,19 @@ function buttonFour() {
 
     btn2.appendChild(vectorRight);
     btn2.style.backgroundColor = "#60BF88";
+    btn2.style.color = "#f2f2f2";
+    btn2.style.border = "none";
+    btn2.style.position = "relative"
+    
 
     wrong.src = "icons8-multiply-30.png";
 
     btn4.appendChild(wrong);
     btn4.style.backgroundColor = "#EA8282";
+    btn4.style.color = "#f2f2f2";
+    btn4.style.border = "none";
+    btn4.style.position = "relative"
+    
 
     next.style.display = "unset";
 }
@@ -98,6 +122,8 @@ function goToNextPage() {
     const options = document.querySelectorAll(".option");
     options.forEach(function (option) {
         option.style.backgroundColor = "";
+        option.style.color = "";
+        option.style.border = ""
     });
     const icon = document.createElement("img");
     icon.src = "icons8-finland-48.png";
@@ -129,11 +155,17 @@ function goToNextPage() {
 
         btn2.appendChild(vectorRight);
         btn2.style.backgroundColor = "#60BF88";
+        btn2.style.color = "#f2f2f2";
+        btn2.style.border = "none";
+        btn4.style.position = "relative"
 
         wrong.src = "icons8-multiply-30.png";
 
         btn1.appendChild(wrong);
         btn1.style.backgroundColor = "#EA8282";
+        btn1.style.color = "#f2f2f2";
+        btn1.style.border = "none";
+        btn1.style.position = "relative";
 
         next.style.display = "unset";
     });
@@ -149,6 +181,9 @@ function goToNextPage() {
 
         btn2.appendChild(vectorRight);
         btn2.style.backgroundColor = "#60BF88";
+        btn2.style.color = "#f2f2f2";
+        btn2.style.border = "none";
+        btn2.style.position = "relative"
 
         next.style.display = "unset";
     });
@@ -164,11 +199,17 @@ function goToNextPage() {
 
         btn2.appendChild(vectorRight);
         btn2.style.backgroundColor = "#60BF88";
+        btn2.style.color = "#f2f2f2";
+        btn2.style.border = "none";
+        btn2.style.position = "relative"
 
         wrong.src = "icons8-multiply-30.png";
 
         btn3.appendChild(wrong);
         btn3.style.backgroundColor = "#EA8282";
+        btn3.style.color = "#f2f2f2";
+        btn3.style.border = "none";
+        btn3.style.position = "relative"
 
         next.style.display = "unset";
     });
@@ -184,11 +225,17 @@ function goToNextPage() {
 
         btn2.appendChild(vectorRight);
         btn2.style.backgroundColor = "#60BF88";
+        btn2.style.color = "#f2f2f2";
+        btn2.style.border = "none";
+        btn2.style.position = "relative"
 
         wrong.src = "icons8-multiply-30.png";
 
         btn4.appendChild(wrong);
         btn4.style.backgroundColor = "#EA8282";
+        btn4.style.color = "#f2f2f2";
+        btn4.style.border = "none";
+        btn4.style.position = "relative"
 
         next.style.display = "unset";
     });
@@ -205,13 +252,13 @@ function reultsPage() {
 }
 
 
-const tryAgainBtn = document.querySelector(".btn2")
-function tryAgain() {
-    
-    reults.style.display = "none";
+// const tryAgainBtn = document.querySelector(".btn2")
+// function tryAgain() {
+//     reults.style.display = "none";
 
-    main1.style.display = "unset";
-    main1.style.margin = "auto"
+//     main1.style.display = "unset";
+//     main1.style.margin = "auto";
+//     box.style.margin = "auto";
 
-}
-tryAgainBtn.addEventListener("click", tryAgain)
+// }
+// tryAgainBtn.addEventListener("click", tryAgain)

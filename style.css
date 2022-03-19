@@ -104,16 +104,16 @@ button:hover {
 .wrong{
   width: 22px;
   height: 22px;
+  position: absolute;
+  left: 210px;
+  top: 11px;
 }
 .right{
   width: 22px;
   height: 22px;
-}
-.btnstyle{
-  color: #f2f2f2;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  position: absolute;
+  left: 210px;
+  top: 11px;
 }
 .flag {
   position: absolute;
@@ -300,5 +300,19 @@ font-size: 18px;
 color: #1D355D;
 border: 2px solid #1D355D;
 padding: 0;
+  }
+  .wrong{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 325px;
+    top: 13px;
+  }
+  .right{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 325px;
+    top: 13px;
   }
 }
