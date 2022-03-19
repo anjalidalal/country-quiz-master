@@ -17,8 +17,7 @@ body {
 .main2 {
   margin: auto;
   width: 300px;
-  height: 467px;
-  padding-top: 15px;
+  height: 390px;
 }
 /* first heading of the page */
 h1 {
@@ -27,7 +26,7 @@ h1 {
   line-height: 54px;
   text-transform: uppercase;
   color: #f2f2f2;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /* question div or white div */
 .box,
@@ -102,19 +101,20 @@ button:hover {
   padding: 0;
   border-radius: 12px;
 }
-/* .wrong{
-  width: 250px;
-  height: 42px;
-  background-color: #EA8282;
-  border-radius: 12px;
+.wrong{
+  width: 22px;
+  height: 22px;
 }
-.rigth{
-  width: 250px;
-  height: 42px;
-  background-color: #60BF88;
-  border-radius: 12px;
-} */
-
+.right{
+  width: 22px;
+  height: 22px;
+}
+.btnstyle{
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .flag {
   position: absolute;
   left: 23px;
@@ -152,9 +152,8 @@ button:hover {
 }
 #quiz{
   text-align: center;
-  margin-top: 50px;
 }
-.right {
+.correct {
   padding: 0;
   margin: 0px;
   font-size: 28px;
@@ -179,15 +178,14 @@ padding: 0;
   .main2 {
     margin: auto;
     width: 430px;
-    height: 450px;
-    padding-top: 50px;
+    height: 420px;
+    padding-top: 30px;
   }
   .main2 {
     display: none;
   }
   #quiz{
     text-align: center;
-    margin-top: 50px;
   }
   /* first heading of the page */
   h1 {
@@ -287,7 +285,7 @@ padding: 0;
     line-height: 27px;
     color: #1d355d;
   }
-  .right {
+  .correct {
     padding: 0;
     margin: 0px;
     font-size: 28px;
